@@ -62,7 +62,6 @@ text-transform: uppercase;
 .ubicacion h1{
   color: #e9ec27;
   font-size: 28px;
-  align-self: end;
   padding: 0px;
 }
 .ubicacion p{
@@ -114,6 +113,7 @@ CONTENIDO : SERVICIO  */
 .contacto {
   background: rgb(0, 0, 0);
   flex-direction: column;
+  align-items: unset;
 }
 .contacto label {
   display: flex;
@@ -122,7 +122,6 @@ CONTENIDO : SERVICIO  */
   padding: 5px;
 }
 .contacto input[type=text],textarea{
-  width: 100%;
   height: 35px;
   font-size: 16px;
   justify-content: space-between;

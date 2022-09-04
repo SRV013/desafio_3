@@ -1,5 +1,5 @@
 @media (max-width: 800px) {
-/* 
+ /* 
 PRIMERA PARTE INCLUYE
 HEADER : LOGO Y MENU */
  .header-menu {display: none;}
@@ -17,10 +17,10 @@ CONTENIDO : TIENDA UBICACION   */
  .contenido{
     display: flex;
     flex-direction: column;
-    padding: 5%;}
- .contenido h1{
-   padding: 20px ;
-   font-size: 38px;
+    padding-top: 5px;}
+ .contenido h1,p{
+   margin: 15px;
+   font-size: 20px;
  }
  .contenido img{
     width:90vw;
@@ -33,6 +33,8 @@ CONTENIDO : TIENDA UBICACION   */
  .ubicacion{
     display: grid;
     grid-template-columns: 1fr;}
+ .ubicacion h1{ font-size: 22px;}   
+ .ubicacion p{ font-size: 14px;}   
 /* 
 TERCERA PARTE INCLUYE
 CONTENIDO : SERVICIO  */
@@ -40,5 +42,6 @@ CONTENIDO : SERVICIO  */
     width: 100%;text-align: center;}  
     .servicios .modulo img{
         width: 15%;} 
+ .contacto h1{text-align: start;margin: 15px 0px;}       
 }
     

@@ -18,6 +18,10 @@ CONTENIDO : TIENDA UBICACION   */
     display: flex;
     flex-direction: column;
     padding: 5%;}
+ .contenido h1{
+   padding: 20px 20px 20px ;
+   font-size: 38px;
+ }
  .contenido img{
     width:90vw;
     border-radius: 10px;}
